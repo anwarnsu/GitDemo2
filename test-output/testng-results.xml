@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="156" started-at="2020-04-22T16:47:10 EDT" finished-at="2020-04-22T16:47:11 EDT">
+    <groups>
+      <group name="Smoke">
+        <method signature="Demo1Test.Demo()[pri:0, instance:Ovi_Test.Demo1Test@3dfc5fb8]" name="Demo" class="Ovi_Test.Demo1Test"/>
+        <method signature="Demo2Test.ploan()[pri:0, instance:Ovi_Test.Demo2Test@3cb1ffe6]" name="ploan" class="Ovi_Test.Demo2Test"/>
+        <method signature="Demo3Test.MobileSignInCarLoan()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="MobileSignInCarLoan" class="Ovi_Test.Demo3Test"/>
+        <method signature="Demo3Test.MobileloginCarLoan()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="MobileloginCarLoan" class="Ovi_Test.Demo3Test"/>
+        <method signature="Demo4Test.LoginApiHomeloan()[pri:0, instance:Ovi_Test.Demo4Test@467aecef]" name="LoginApiHomeloan" class="Ovi_Test.Demo4Test"/>
+        <method signature="Demo4Test.MobileLogicHomeLoan()[pri:0, instance:Ovi_Test.Demo4Test@467aecef]" name="MobileLogicHomeLoan" class="Ovi_Test.Demo4Test"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Personal Loan" duration-ms="156" started-at="2020-04-22T16:47:10 EDT" finished-at="2020-04-22T16:47:11 EDT">
+      <class name="Ovi_Test.Demo2Test">
+        <test-method status="PASS" signature="prerequisite()[pri:0, instance:Ovi_Test.Demo2Test@3cb1ffe6]" name="prerequisite" is-config="true" duration-ms="0" started-at="2020-04-22T16:47:10 EDT" finished-at="2020-04-22T16:47:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method status="PASS" signature="ploan()[pri:0, instance:Ovi_Test.Demo2Test@3cb1ffe6]" name="ploan" duration-ms="0" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- Ovi_Test.Demo2Test -->
+      <class name="Ovi_Test.Demo3Test">
+        <test-method status="PASS" signature="BeforeSuite()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeSuite" is-config="true" duration-ms="11" started-at="2020-04-22T16:47:10 EDT" finished-at="2020-04-22T16:47:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="LoginApiCarloan()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="LoginApiCarloan" duration-ms="2" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApiCarloan -->
+        <test-method status="PASS" signature="BeforeMethod2()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeMethod2" is-config="true" duration-ms="0" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod2 -->
+        <test-method status="PASS" signature="BeforeMethod2()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeMethod2" is-config="true" duration-ms="0" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod2 -->
+        <test-method status="PASS" signature="MobileLogicCarLoan(java.lang.String, java.lang.String)[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="MobileLogicCarLoan" duration-ms="2" started-at="2020-04-22T16:47:11 EDT" data-provider="getData" finished-at="2020-04-22T16:47:11 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogicCarLoan -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="BeforeMethod2()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeMethod2" is-config="true" duration-ms="4" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod2 -->
+        <test-method status="PASS" signature="MobileLogicCarLoan(java.lang.String, java.lang.String)[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="MobileLogicCarLoan" duration-ms="5" started-at="2020-04-22T16:47:11 EDT" data-provider="getData" finished-at="2020-04-22T16:47:11 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogicCarLoan -->
+        <test-method status="PASS" signature="BeforeMethod2()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeMethod2" is-config="true" duration-ms="0" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod2 -->
+        <test-method status="PASS" signature="MobileLogicCarLoan(java.lang.String, java.lang.String)[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="MobileLogicCarLoan" duration-ms="1" started-at="2020-04-22T16:47:11 EDT" data-provider="getData" finished-at="2020-04-22T16:47:11 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogicCarLoan -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="BeforeMethod2()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeMethod2" is-config="true" duration-ms="0" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod2 -->
+        <test-method status="PASS" signature="MobileSignInCarLoan()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="MobileSignInCarLoan" duration-ms="1" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignInCarLoan -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="BeforeMethod2()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeMethod2" is-config="true" duration-ms="1" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod2 -->
+        <test-method status="PASS" signature="MobileSignOutCarLoan()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="MobileSignOutCarLoan" duration-ms="21" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileSignOutCarLoan -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="BeforeMethod2()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeMethod2" is-config="true" duration-ms="2" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod2 -->
+        <test-method status="PASS" signature="MobileloginCarLoan()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="MobileloginCarLoan" duration-ms="1" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginCarLoan -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="BeforeMethod2()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="BeforeMethod2" is-config="true" duration-ms="1" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod2 -->
+        <test-method status="PASS" signature="WebloginCarLoan(java.lang.String)[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="WebloginCarLoan" duration-ms="2" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[quickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarLoan -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:Ovi_Test.Demo3Test@2a742aa2]" name="AfterClass" is-config="true" duration-ms="0" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- Ovi_Test.Demo3Test -->
+      <class name="Ovi_Test.Demo4Test">
+        <test-method status="PASS" signature="LoginApiHomeloan()[pri:0, instance:Ovi_Test.Demo4Test@467aecef]" name="LoginApiHomeloan" duration-ms="1" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApiHomeloan -->
+        <test-method status="PASS" signature="MobileLogicHomeLoan()[pri:0, instance:Ovi_Test.Demo4Test@467aecef]" name="MobileLogicHomeLoan" duration-ms="1" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogicHomeLoan -->
+        <test-method status="PASS" signature="WebloginHomeLoan()[pri:0, instance:Ovi_Test.Demo4Test@467aecef]" name="WebloginHomeLoan" duration-ms="12" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+      </class> <!-- Ovi_Test.Demo4Test -->
+      <class name="Ovi_Test.Demo1Test">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:Ovi_Test.Demo1Test@3dfc5fb8]" name="Demo" duration-ms="6" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:Ovi_Test.Demo1Test@3dfc5fb8]" name="SecondTest" duration-ms="5" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method status="PASS" signature="LastExecution()[pri:0, instance:Ovi_Test.Demo1Test@3dfc5fb8]" name="LastExecution" is-config="true" duration-ms="0" started-at="2020-04-22T16:47:11 EDT" finished-at="2020-04-22T16:47:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LastExecution -->
+      </class> <!-- Ovi_Test.Demo1Test -->
+    </test> <!-- Personal Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

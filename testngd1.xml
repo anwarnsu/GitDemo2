@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel="tests" thread-count="2">
+<listeners>
+<listener class-name="Ovi_Test.Demo5Test"/>
+</listeners>
+<parameter name="URL" value="quickacademy.com"/>
+  <test name="Personal Loan" parallel="classes" thread-count="2">
+    <classes>
+       <class name="Ovi_Test.Demo1Test">
+       <methods>
+         <include name="Demo"/>
+       </methods>
+       </class>
+       <class name="Ovi_Test.Demo2Test"/>
+       <class name="Ovi_Test.Demo4Test"/>
+   </classes>
+   </test> 
+
+    <test name="Car Loan">
+	<classes>
+		 <class name="Ovi_Test.Demo3Test">
+		 <methods>
+		   <exclude name="Mobile.*"/>
+		 </methods>
+		 </class>
+	</classes>
+    </test> 
+  
+</suite>
+
